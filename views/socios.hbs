@@ -1,0 +1,140 @@
+    <!-- NAVEGADOR -->
+    <nav class="navbar navbar-expand-lg" style="background: #202020;">
+        <div class="container-fluid">
+          <a id="clubnav" class="navbar-brand" >
+            <img src="images/escudo.png" alt="cluboeste" width="30" height="24"> CLUB ATLÉTICO OESTE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav" id="clubnav2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/" style="color: #fff;">El Club</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/socios" style="color: #fff;">Socios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/shop" style="color: #fff;">Shop</a>
+              </li>
+          </div>
+          <span id="elclub" class="navbar-text">
+            La misma pasión
+          </span>
+        </div>
+      </nav>
+
+
+    <!-- BARRA BAJA -->
+    <div class="top-bar">
+        <span></span>
+        <ul>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        </ul>
+    </div>
+
+
+    <!-- SOCIOS -->
+
+    <div>
+      <div id="socio-caja">
+        <div id="socio-contenido">
+          <h1 id="socio-titulo"> <img id="socio-img" src="images/escudoblanco.png" alt="">
+            INFORMACIÓN IMPORTANTE</h1>
+
+          <ul class="ul1">
+            
+            <li class="p1">
+              <span class="s1">
+                <strong>&#8211; </strong> Por favor corrobore su cuota social días antes de cada partido para que pueda llegar al estadio sin tener que realizar largas colas por el olvido del pago de la misma.
+              </span>
+            </li>
+
+            <li class="p1">
+              <span class="s1">
+                <strong>&#8211; </strong> El 01/03/2009 entró en vigencia el Art. 32 de nuestro estatuto en el cual se estipula que se darán de baja los socios que tengan una deuda mayor a 6 meses sin necesidad de notificación alguna.
+              </span>
+            </li>
+
+            <li class="p1">
+              <span class="s1">
+                <strong>&#8211; </strong> Le recordamos que su credencial de Socio es Intransferible, según lo dispuesto por el artículo 24, capítulo 3º (Deberes de los Socios).
+              </span>
+            </li>
+
+            <li class="p1">
+              <span class="s1">
+                <strong>&#8211; </strong> El uso indebido del mismo será sancionado por el Tribunal de Disciplina, de acuerdo a lo dispuesto en el artículo 28 y 31, capítulo 4º (Tribunal Disciplinario, Sumario, Sanciones y Órganos de Aplicación), establecido en el Estatuto y Reglamento General de Comicios de nuestra Institución. Así mismo, está prohibida la comercialización de abonos. Violar esta norma facultará al Club a cancelar el abono con pérdida de las sumas abonadas.
+              </span>
+            </li>
+
+            <li class="p1">
+                <span class="s1">
+                  <strong>&#8211; </strong> Los trámites por duplicados de carnet en general, robo; extravío o dañado, lo podrán realizar únicamente los titulares en forma personal y con DNI.
+                </span>
+            </li>
+
+            <li class="p1">
+                <span class="s1">
+                  <strong>&#8211; </strong> En el caso de los menores de edad podrán presentarse los padres también con DNI.
+                </span>
+            </li>  
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    {{!-- CONTACTO --}}
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col order-first" id="mapa">
+        <h2 id="mapatext">MAPA</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5173261309887!2d-58.66366143317756!3d-34.66689078443955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc0a39c10dc41%3A0xe7084a4ef95fb634!2sEstadio%20de%20Ituzaing%C3%B3!5e0!3m2!1ses!2sar!4v1650309104392!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p></p>
+        <span>
+          <strong style="color: #e5b82e;">ESTADIO CLUB OESTE ITUZAINGÓ</strong>
+          <p></p>
+          <p style="color: #fff;">Gral. Ángel Pacheco 800-898, Ituzaingó, Provincia de Buenos Aires</p>
+          <p style="color: #fff;">Capacidad: 25.000 personas</p> 
+        </span>
+      </div>
+      <div class="col">
+      <form id="form-contacto" action="/" method="post">
+        <h2 id="contacto">CONTACTO</h2>
+        <p id="form-margin">
+          <label id="label-contacto">Nombre</label>
+          <input id="input-contacto" type="text" name="nombre" placeholder="Escriba aquí">
+        </p>
+        <p id="form-margin">
+          <label id="label-contacto">Apellido</label>
+          <input id="input-contacto" type="text" name="apellido" class="form-control" placeholder="Escriba aquí">  
+        </p>
+        <p id="form-margin">
+          <label id="label-contacto">Correo Electrónico</label>
+          <input id="input-contacto" type="text" name="correo" placeholder="Escriba aquí">
+        </p>
+        <p id="form-margin">
+          <label id="label-contacto">Mensaje</label>
+          <textarea id="textarea-contacto" name="mensaje" placeholder="Escriba aquí"></textarea>
+        </p>
+        
+        <p>
+          <button type="submit" class="btn btn-light" id="boton-form">Enviar</button>
+        </p>
+                <p style="color: rgb(75, 255, 75); text-align:center;" >{{message}}</p>
+          </form>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+<br> <br>
